@@ -24,6 +24,7 @@
 
 defined('MOODLE_INTERNAL') || die;
 
-$plugin->version = 2024091900;        // The current plugin version (Date: YYYYMMDDXX).
-$plugin->requires = 2024041600;        // Requires this Moodle version.
+$plugin->version = 2025041400;        // The current plugin version (Date: YYYYMMDDXX).
+$plugin->requires = 2024100700;        // Requires this Moodle version.
 $plugin->component = 'tool_externaltaskmonitor';      // Full name of the plugin (used for diagnostics).
+$plugin->supported = [405, 405];
